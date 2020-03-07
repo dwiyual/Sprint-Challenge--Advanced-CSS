@@ -1,3 +1,13 @@
+.sign-up-style {
+  font-size: large;
+  background-color: #22283A;
+  color: #F6F7F8;
+  border: solid black 1px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  padding: 1%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -226,6 +236,16 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  font-size: large;
+  background-color: #22283A;
+  color: #F6F7F8;
+  border: solid black 1px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  padding: 1%;
 }
 .home .walk .walk-img {
   width: 46%;
