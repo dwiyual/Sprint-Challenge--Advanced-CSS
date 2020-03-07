@@ -58,7 +58,11 @@
       }
 
       .btn {
-       .sign-up-style();
+       .sign-up-style(@btn-bg-color, @porcelain );
+      }
+
+      .btn:hover {
+        .sign-up-style(@porcelain, @btn-bg-color);
       }
     }
 
