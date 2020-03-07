@@ -185,6 +185,12 @@ footer {
   justify-content: center;
   align-items: center;
 }
+@media max-width: 500px {
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -195,6 +201,11 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+}
+@media max-width: 500px {
+  .home .space-images {
+    flex-direction: column;
+  }
 }
 .home .space-images img {
   width: 28%;
@@ -218,6 +229,11 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media max-width: 500px {
+  .home .walk {
+    flex-direction: column-reverse;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
 }
@@ -236,6 +252,12 @@ footer {
   width: 30%;
   text-align: center;
   padding: 1%;
+}
+@media max-width: 500px {
+  .home .walk .walk-text .btn {
+    width: 90%;
+    padding: 10%;
+  }
 }
 .home .walk .walk-text .btn:hover {
   font-size: large;
